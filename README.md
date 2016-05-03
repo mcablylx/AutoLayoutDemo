@@ -23,7 +23,7 @@ AndroidManifest中注明设计稿的尺寸。
 如果你不希望继承AutoLayoutActivity，可以在编写布局文件时，将
  - LinearLayout -> AutoLinearLayout
  - RelativeLayout -> AutoRelativeLayout
- - FrameLayout -> AutoFrameLayout
+ - FrameLayout -> AutoFrameLayout <br>
 这样也可以完成适配。
 
 
