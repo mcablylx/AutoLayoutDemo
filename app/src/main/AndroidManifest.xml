@@ -9,5 +9,6 @@
         android:theme="@style/AppTheme">
 
     </application>
-
+    <meta-data android:name="design_width" android:value="768"/>
+    <meta-data android:name="design_height" android:value="1280"/>
 </manifest>
