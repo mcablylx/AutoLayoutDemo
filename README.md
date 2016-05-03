@@ -24,7 +24,7 @@ AndroidManifest中注明设计稿的尺寸。
  - LinearLayout -> AutoLinearLayout
  - RelativeLayout -> AutoRelativeLayout
  - FrameLayout -> AutoFrameLayout <br>
-
+#
 这样也可以完成适配。
 
 
