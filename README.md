@@ -13,9 +13,7 @@ dependencies {
 AndroidManifest中注明设计稿的尺寸。
 ```
 <meta-data android:name="design_width" android:value="768"/>
-
 <meta-data android:name="design_height" android:value="1280"/>
-
 ```
 让你的Activity继承自AutoLayoutActivity.
 
@@ -24,7 +22,7 @@ AndroidManifest中注明设计稿的尺寸。
  - LinearLayout -> AutoLinearLayout
  - RelativeLayout -> AutoRelativeLayout
  - FrameLayout -> AutoFrameLayout <br>
-#
+<br>
 这样也可以完成适配。
 
 
