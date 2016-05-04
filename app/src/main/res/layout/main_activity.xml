@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/layout_title"/>
+    <RelativeLayout
+        android:background="#f0eff5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="35px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lesson1"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="25px"
+            />
+        <TextView
+            android:text="跟读2遍"
+            android:layout_marginTop="35px"
+            android:layout_marginRight="25px"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

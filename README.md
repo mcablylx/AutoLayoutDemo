@@ -12,8 +12,10 @@ dependencies {
 ```
 AndroidManifest中注明设计稿的尺寸。
 ```
-<meta-data android:name="design_width" android:value="768"/>
-<meta-data android:name="design_height" android:value="1280"/>
+<application>
+    <meta-data android:name="design_width" android:value="768"/>
+    <meta-data android:name="design_height" android:value="1280"/>
+</application>
 ```
 让你的Activity继承自AutoLayoutActivity.
 
@@ -27,7 +29,7 @@ AndroidManifest中注明设计稿的尺寸。
 # <示例>
 <img src="./img/autolayout.png">
 
-
+PS:可能会有ActionBar.在activity中调用getSupportActionBar().hide();即可
 ---------
 [1]:http://blog.csdn.net/lmj623565791/article/details/49990941
 [2]:https://github.com/hongyangAndroid/AndroidAutoLayout
